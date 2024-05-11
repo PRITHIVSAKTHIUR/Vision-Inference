@@ -1,0 +1,23 @@
+{
+    "name": "live-vision",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.mjs",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://huggingface.co/spaces/fffiloni/live-vision"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "@gradio/client": "^0.10.1",
+      "dotenv": "^4.0.0",
+      "eventsource": "^2.0.2",
+      "express": "^4.18.2",
+      "socket.io": "^4.5.4"
+    }
+  }
